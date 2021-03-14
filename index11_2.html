@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body >
+
+	<form  style="text-align: center; margin: auto;  background: #AFEEEE; width: 500px; height: 560px; border-radius: 30px; method="post";>
+	<div> 
+		<dr>
+		
+	  <H3 style="text-align: center; width: 500px; height: 30px; background: #E0FFFF; border-radius: 30px;  border: 3px solid #808080; ">Анкета користувача сайту</H3> 
+	  </dr>
+	  <hr style="width:90%; text-align:center; border-width:2px solid #20211d;">
+	  <H4 style="text-align: center; ">Дайте відповіді на наступні питання:</H4>
+   
+    	<label for="name">Ваше ім’я:</label>
+    	<input type="text" id="name" name="name" size="36"><br><br>
+    	<label for="name">Ваше прізвище:</label>
+    	<input type="text" id="name" name="name" size="30"><br><br>
+    	<label for="name">Номер телефону:</label>
+    	<input type="text" id="name" name="name" size="28"><br><br>
+    	<label for="name">Електронна пошта:</label>
+    	<input type="text" id="name" name="name" size="25"><br><br>
+
+	<tr>
+        <td>Стать:</td>
+        <td>
+        	<input type="radio" id="male" name="gender">Чоловіча
+        	<input type="radio" id="female" name="gender">Жіноча
+        </td>
+
+    </tr> <p></p>
+    	<label for="gorod">Вибрати місто</label>
+	<select name="gorod" id="gorod">
+		<option value="yourcity ">Ваше місто</option>
+		<option value="kiev">Київ</option>
+		<option value="zhutomur">Житомир</option>
+		<option value="cherkasy">Черкаси</option>
+		<option value="vinnitsa">Вінниця</option>
+		<option value="other">Інше</option>
+	</select> <p></p>
+		<label for="name">Діти:</label>
+    		<tr>
+        <td>
+        	
+        	<input type="radio"  id="Yes" name="children">Є
+        	
+        	<input type="radio"  id="No" name="children">Нема
+        </td>
+
+    </tr> <p></p>
+
+
+    <label for="name">Домашні улюбленці:</label>
+    		<tr>
+        <td>
+        	
+        	<input type="radio"  id="Yes" name="pet">Є
+        	
+        	<input type="radio"  id="No" name="pet">Нема
+        </td>
+
+    </tr> <p></p>
+
+    	<label for="comment">Додаткова інформація про Вас:</label><br>
+	   <textarea id="comment" name="comment" rows="3" cols="50"></textarea><br> 
+
+
+    	<input type="submit" value="Відправити"> 
+    	<input type="reset" value="Очистити">
+    </form>
+</div>
+</body>
+</html>
